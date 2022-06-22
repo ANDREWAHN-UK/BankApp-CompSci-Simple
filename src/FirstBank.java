@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class FirstBank {
+public class FirstBank {
+
+    public static void main(String[] args) {
+
+        Account Andy = new Account("Andy", "01234");
+        Andy.showMenu();
+
+    }
 }
